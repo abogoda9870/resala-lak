@@ -1,46 +1,60 @@
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>رساله لك</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>رسالة سرية Pi Network</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background: #f2f2f2;
+      margin: 0;
+      padding: 0;
+      font-family: 'Tajawal', Arial, sans-serif;
+      background: #f0f2f5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .card {
+      background: #ffffff;
+      padding: 30px 25px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
       text-align: center;
-      padding: 50px;
+      max-width: 350px;
     }
-    .container {
-      background: #fff;
-      padding: 30px;
-      border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-      max-width: 500px;
-      margin: auto;
-    }
-    h1 {
+    .card h1 {
+      font-size: 1.8em;
       color: #333;
+      margin-bottom: 15px;
     }
-    p {
-      color: #666;
-      margin-bottom: 20px;
+    .card p {
+      font-size: 1em;
+      color: #555;
+      line-height: 1.6;
+      margin-bottom: 25px;
     }
     .btn {
       display: inline-block;
-      padding: 10px 20px;
-      background: #4CAF50;
-      color: white;
+      background: #28a745;
+      color: #fff;
       text-decoration: none;
-      border-radius: 5px;
+      padding: 12px 20px;
+      border-radius: 6px;
+      font-size: 1em;
+      transition: background 0.3s ease;
+    }
+    .btn:hover {
+      background: #218838;
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <h1>رساله لك</h1>
+  <div class="card">
+    <h1>رسالة سرية Pi Network</h1>
     <p>
-      أرسل رسالة رقمية لأي شخص تريده داخل شبكة Pi بسهولة وسرية.
+      أرسل رسالة رقمية لأي شخص بسهولة عبر شبكة Pi.<br>
+      سريعة وسرية.
     </p>
     <a href="#" class="btn">ابدأ الآن</a>
   </div>
